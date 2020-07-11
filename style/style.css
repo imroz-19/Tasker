@@ -1,0 +1,71 @@
+.container {
+    position: relative;
+}
+
+#workorder {
+    text-align: center;
+    border-collapse: collapse;
+    margin: 50px auto;
+}
+
+#workorder td, #workorder th {
+    border: 1px solid #ddd;
+    padding: 12px;
+    color: grey;
+}
+
+#workorder td {
+    height: 50px;
+}
+.task-box {
+    border: 1px solid #dcdcdc;
+    padding: 8px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.task-name {
+    border-bottom: 1px solid #dcdcdc;
+}
+#workorder .task-row,  #workorder .task-column {
+border: none;
+}
+
+#workorder th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    font-weight: normal;
+}
+#workorder .borderBottom {
+    border-bottom-style: dashed;
+    border-bottom-width: 0.5;
+    border-left: 0;
+    border-top: 0;
+}
+
+#workorder .empName {
+    width: 100px;
+    border-left: none;
+}
+
+#workorder tr {
+    border-bottom-style: dashed;
+    border-bottom-color: #dcdcdc;
+}
+
+.modal-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+    background-color: #d6d6d6;
+    z-index: 100;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+.task-grid div {
+    margin-bottom: 0;
+}
