@@ -2,6 +2,12 @@
     position: relative;
 }
 
+.heading-text{
+    text-align: center;
+    color: #1c1d1c;
+    font-size: 20;
+    text-decoration: underline;
+}
 #workorder {
     text-align: center;
     border-collapse: collapse;
